@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BestCare | Home</title>
+  <link rel="icon" type="image/x-icon" href="./images/logo.png">
+
+  <!-- Bootstrap CSS -->
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/bootstrap/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Font Awasome icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+
+<body>
+
+      <!--Topbar Section-->
+    <div id="topbar" class="d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope me-3"><a href="mailto:contact@example.com">contact@example.com</a></i>
+          <i class="bi bi-phone"><span>+880 1575634380</span></i>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="https://x.com/" class="twitter"><i class="bi bi-twitter-x"></i></a> 
+          <a href="https://www.facebook.com/" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/accounts/login/?hl=en" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/login" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  <!--Header Section-->
+  <header id="header" class="header sticky-top">
+    <!--Nav Section-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm py-2 -top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="./images/logo.png" alt="logo" height="45"> 
+          <span class="brand-text">
+            <span class="bestcare-name" style="color: #000066;">BestCare</span>
+            <span class="health-solution-tag">Health Solution</span>
+          </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center"> 
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./pages/about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="./pages/services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="./pages/doctors.html">Doctors</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Department
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Diagnostics</a></li>                 
+                    <li><a class="dropdown-item" href="#">Cardiology</a></li>
+                    <li><a class="dropdown-item" href="#">Neurology</a></li>
+                    <li><a class="dropdown-item" href="#">Orthopedics</a></li>
+                    <li><a class="dropdown-item" href="#">Pediatrics</a></li>
+                    <li><a class="dropdown-item" href="#">Oncology</a></li>
+                    <li><a class="dropdown-item" href="#">Dermatology</a></li>
+                    <li><a class="dropdown-item" href="#">Gastroenterology</a></li>
+                    <li><a class="dropdown-item" href="#">Emergency Medicine</a></li>
+                    <li><hr class="dropdown-divider"></li>                                        
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="./pages/contact.html">Contact</a></li>
+            <li class="nav-item">
+              <a class="btn btn-appointment" href="./pages/appoinment.html">Make an Appointment</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+     <!-- Hero Section -->
+    <section class="hero-section" style="height: auto; background-color: #f0f0f0;">
+
+      <!-- Carousel -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/calosel-1m.jpg" alt="Los Angeles" class="d-block" style="width:100%; height: 650px;">
+            <div class="carousel-caption" style="top: 40%; bottom: auto; left: 15%; transform: translateY(-50%); text-align: left;">
+              <h2 class="text-primary">Welcome To<br/> BestCare  Health Solution</h>
+              <h4 class="text-dark">Best Healthcare Solution In Your City</h4>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/calosel-2m.jpg" alt="Chicago" class="d-block" style="width:100%; height: 650px;">
+            <div class="carousel-caption">
+              <h2 >Our Medical Equipment.</h2>
+              <h4>We use latest and best equipment to treat Patients.</h4>
+            </div> 
+          </div>
+          <div class="carousel-item ">
+            <img src="./images/carosel-3m.jpg" alt="New York" class="d-block" style="width:100%; height: 650px;">
+            <div class="carousel-caption">
+              <h2 >Our Care and Treatement.</h2>
+              <h4>We provide treatemint to our Patients with great care and respect. </h4>
+            </div>  
+          </div>
+        </div>
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev " type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark"></span>
+        </button>
+        <button class="carousel-control-next " type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark"></span>
+        </button>
+      </div>
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded" src="./images/aboutus.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="mb-4">
+                        <h5 class="d-inline-block text-info text-uppercase border-bottom border-5">About Us</h5>
+                        <h1 style="color: #000066;">Best Medical Care<br/> For Yourself and Your Family</h>
+                    </div>
+                    <p class="text-justifyed">
+                     We are committed to ensuring the best medical care for you and your loved ones. Our team, comprised of qualified doctors and modern technology, is ready to meet all your health needs. 
+                     </p>
+                     <p>
+                     From routine check-ups to emergency services, we provide a compassionate and secure environment. Rest assured, your family will always be safe and healthy through our attentive care.
+                    </p>
+                    <div class="row g-3 pt-3">
+                        <div class="col-sm-3 col-6">
+                            <div class="bg-light text-center rounded-circle py-4">
+                                <i class="fa fa-3x fa-user-md text-info mb-3"></i>
+                                <h6 class="mb-0">Qualified<small class="d-block text-info">Doctors</small></h6>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <div class="bg-light text-center rounded-circle py-4">
+                                <i class="fa fa-3x fa-procedures text-info mb-3"></i>
+                                <h6 class="mb-0">Emergency<small class="d-block text-info">Services</small></h6>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <div class="bg-light text-center rounded-circle py-4">
+                                <i class="fa fa-3x fa-microscope text-info mb-3"></i>
+                                <h6 class="mb-0">Accurate<small class="d-block text-info">Testing</small></h6>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <div class="bg-light text-center rounded-circle py-4">
+                                <i class="fa fa-3x fa-ambulance text-info mb-3"></i>
+                                <h6 class="mb-0">Free<small class="d-block text-info">Ambulance</small></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+        <!-- Services Start -->
+      <hr/>
+      <div class="container-fluid py-5">
+          <div class="container">
+              <div class="text-center mx-auto mb-5" style="max-width: 500px;">
+                  <h3 class="d-inline-block text-info text-uppercase border-bottom border-5">Services</h3>
+                  <h1 style="color: #000066;">Excellent Medical Services</h1>
+              </div>
+              <div class="row g-5">
+                  
+                  <div class="col-lg-4 col-md-6">
+                      <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                          <div class="service-icon mt-5 rounded-circle bg-info p-4  mb-4">
+                              <i class="fa fa-2x fa-user-md text-white"></i>
+                          </div>
+                          <h4 class="mb-3" style="color: #000066;">Emergency Care</h4>
+                          <p class="m-0 px-3 text-secondary">Get immediate, life-saving medical attention 24/7. Our dedicated team is ready to handle all critical situations with speed and precision.</p>
+                          <a class="btn btn-lg btn-info rounded-pill my-3" href="">
+                              <i class="bi bi-arrow-right"></i>
+                          </a>
+                      </div>
+                  </div>
+                  
+                  <div class="col-lg-4 col-md-6">
+                      <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                          <div class="service-icon mt-5 rounded-circle bg-info p-4  mb-4">
+                              <i class="fa fa-2x fa-procedures text-white"></i>
+                          </div>
+                          <h4 class="mb-3" style="color: #000066;">Operation & Surgery</h4>
+                          <p class="m-0 px-3 text-secondary">We offer state-of-the-art surgical procedures by highly experienced surgeons, ensuring safe and effective treatment.</p>
+                          <a class="btn btn-lg btn-info rounded-pill my-3" href="">
+                              <i class="bi bi-arrow-right"></i>
+                          </a>
+                      </div>
+                  </div>
+                  
+                  <div class="col-lg-4 col-md-6">
+                      <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                          <div class="service-icon mt-5 rounded-circle bg-info p-4  mb-4">
+                              <i class="fa fa-2x fa-stethoscope text-white"></i>
+                          </div>
+                          <h4 class="mb-3" style="color: #000066;">Outdoor Checkup</h4>
+                          <p class="m-0 px-3 text-secondary">Routine checkups and consultations are available in our outdoor department, helping you maintain proactive health management with expert advice.</p>
+                          <a class="btn btn-lg btn-info rounded-pill my-3" href="">
+                              <i class="bi bi-arrow-right"></i>
+                          </a>
+                      </div>
+                  </div>
+                  
+                  <div class="col-lg-4 col-md-6">
+                      <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                          <div class="service-icon mt-5 rounded-circle bg-info p-4  mb-4">
+                              <i class="fa fa-2x fa-ambulance text-white"></i>
+                          </div>
+                          <h4 class="mb-3" style="color: #000066;">Ambulance Service</h4>
+                          <p class="m-0 px-3 text-secondary">Fast and reliable ambulance service available 24 hours a day to ensure swift and safe transport during medical emergencies.</p>
+                          <a class="btn btn-lg btn-info rounded-pill my-3" href="">
+                              <i class="bi bi-arrow-right"></i>
+                          </a>
+                      </div>
+                  </div>
+                  
+                  <div class="col-lg-4 col-md-6">
+                      <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                          <div class="service-icon mt-5 rounded-circle bg-info p-4  mb-4">
+                              <i class="fa fa-2x fa-pills text-white"></i>
+                          </div>
+                          <h4 class="mb-3" style="color: #000066;">Medicine & Pharmacy</h4>
+                          <p class="m-0 px-3 text-secondary">A fully stocked, licensed pharmacy providing high-quality medications and professional pharmaceutical advice right on-site.</p>
+                          <a class="btn btn-lg btn-info rounded-pill my-3" href="">
+                              <i class="bi bi-arrow-right"></i>
+                          </a>
+                      </div>
+                  </div>
+                  
+                  <div class="col-lg-4 col-md-6">
+                      <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                          <div class="service-icon mt-5 rounded-circle bg-info p-4  mb-4">
+                              <i class="fa fa-2x fa-microscope text-white"></i>
+                          </div>
+                          <h4 class="mb-3" style="color: #000066;">Blood Testing</h4>
+                          <p class="m-0 px-3 text-secondary">Accurate and quick blood testing services conducted in our certified laboratory using advanced diagnostic technology for reliable results.</p>
+                          <a class="btn btn-lg btn-info rounded-pill my-3" href="">
+                              <i class="bi bi-arrow-right"></i>
+                          </a>
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+      </div>
+      <hr/>
+    <!-- Services End -->
+
+
+    <!-- Appointment Start -->
+      <div class="container-fluid bg-info my-5 py-5">
+          <div class="container py-5">
+              <div class="row gx-5">
+                  <div class="col-lg-6 mb-5 mb-lg-0">
+                      <div class="mb-4">
+                          <h3 class="d-inline-block text-white text-uppercase border-bottom border-5">Appointment</h3>
+                          <h1 class="brand-text" style="color: #000066;">Make An Appointment For Your Family</h1>
+                      </div>
+                      <p class="text-white mb-5">
+                          Your health is our priority. Schedule a consultation easily with our qualified healthcare professionals. We are committed to providing personalized and compassionate care for you and your family. Use the form on the right or the buttons below to connect with us and take the next step toward better health. Our specialists cover a wide range of medical needs, ensuring comprehensive support at every stage.
+                      </p>
+                      <a class="btn btn-dark rounded-pill py-3 px-5 me-3" href="">Find Doctor</a>
+                      <a class="btn btn-outline-dark rounded-pill py-3 px-5" href="">Read More</a>
+                  </div>
+                  <div class="col-lg-6">
+                      <div class="bg-white text-center rounded p-5">
+                          <h2 class="brand-text mb-4" style="color: #000066;">Book An Appointment</h2>
+                          <form>
+                              <div class="row g-3">
+                                  <div class="col-12 col-sm-6">
+                                      <select class="form-select bg-light border-0" style="height: 55px;">
+                                          <option selected>Choose Department</option>
+                                          <option value="1">Cardiology</option>
+                                          <option value="2">Neurology</option>
+                                          <option value="3">Pediatrics</option>
+                                      </select>
+                                  </div>
+                                  <div class="col-12 col-sm-6">
+                                      <select class="form-select bg-light border-0" style="height: 55px;">
+                                          <option selected>Select Doctor</option>
+                                          <option value="1">Dr. Alex</option>
+                                          <option value="2">Dr. Sarah</option>
+                                          <option value="3">Dr. Samira</option>
+                                      </select>
+                                  </div>
+                                  <div class="col-12 col-sm-6">
+                                      <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
+                                  </div>
+                                  <div class="col-12 col-sm-6">
+                                      <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
+                                  </div>
+                                  <div class="col-12 col-sm-6">
+                                      <div class="date" id="date" data-target-input="nearest">
+                                          <input type="text"
+                                              class="form-control bg-light border-0 datetimepicker-input"
+                                              placeholder="Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
+                                      </div>
+                                  </div>
+                                  <div class="col-12 col-sm-6">
+                                      <div class="time" id="time" data-target-input="nearest">
+                                          <input type="text"
+                                              class="form-control bg-light border-0 datetimepicker-input"
+                                              placeholder="Time" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                                      </div>
+                                  </div>
+                                  <div class="col-12">
+                                      <button class="btn btn-info w-100 py-3" type="submit">Make An Appointment</button>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <!-- Appointment End -->
+
+    <!-- Team Start -->
+      <div class="container-fluid py-5">
+          <div class="container">
+              <div class="text-center mx-auto mb-5" style="max-width: 500px;">
+                  <h3 class="d-inline-block text-info text-uppercase border-bottom border-5">Our Doctors</h3>
+                  <h1 class="brand-text" style="color: #000066;">Qualified Healthcare Professionals</h1>
+              </div>
+
+              <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel">
+                  
+                  <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="0" class="active"></button>
+                      <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="1"></button>
+                      </div>
+
+                  <div class="carousel-inner">
+
+                      <div class="carousel-item active">
+                          <div class="row g-4">
+                              
+                              <div class="col-lg-6">
+                                  <div class="row g-0 bg-light rounded overflow-hidden">
+                                      <div class="col-12 col-sm-5 d-flex align-items-stretch">
+                                          <img class="img-fluid w-100" src="./images/d1c.jpg" style="object-fit: cover;">
+                                      </div>
+                                      <div class="col-12 col-sm-7 d-flex flex-column">
+                                          <div class="mt-auto p-4">
+                                              <h3>Dr. Alex</h3>
+                                              <h6 class="fw-normal fst-italic text-primary mb-4">Cardiology Specialist</h6>
+                                              <p class="m-0">Tempor dolor diam ipsum et, tempor voluptua sit consetetur sit.</p>
+                                          </div>
+                                          <div class="d-flex mt-auto border-top p-4">
+                                              <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                              <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                              <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <div class="col-lg-6 d-none d-lg-block"> 
+                                  <div class="row g-0 bg-light rounded overflow-hidden">
+                                      <div class="col-12 col-sm-5 d-flex align-items-stretch">
+                                          <img class="img-fluid w-100" src="./images/d5c.jpg" style="object-fit: cover;">
+                                      </div>
+                                      <div class="col-12 col-sm-7 d-flex flex-column">
+                                          <div class="mt-auto p-4">
+                                              <h3>Dr. Sarah</h3>
+                                              <h6 class="fw-normal fst-italic text-primary mb-4">Neurology Expert</h6>
+                                              <p class="m-0">Clita erat ipsum et lorem et sit, sed stet no labore lorem sit.</p>
+                                          </div>
+                                          <div class="d-flex mt-auto border-top p-4">
+                                              <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                              <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                              <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div> 
+                      <div class="carousel-item">
+                          <div class="row g-4">
+                              
+                              <div class="col-lg-6">
+                                  <div class="row g-0 bg-light rounded overflow-hidden">
+                                      <div class="col-12 col-sm-5 d-flex align-items-stretch">
+                                          <img class="img-fluid w-100" src="./images/d6c.jpg" style="object-fit: cover;">
+                                      </div>
+                                      <div class="col-12 col-sm-7 d-flex flex-column">
+                                          <div class="mt-auto p-4">
+                                              <h3>Dr. Samira</h3>
+                                              <h6 class="fw-normal fst-italic text-primary mb-4">Pediatrician</h6>
+                                              <p class="m-0">Sanctus clita duo justo et tempor consetetur takimata eirmod.</p>
+                                          </div>
+                                          <div class="d-flex mt-auto border-top p-4">
+                                              <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                              <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                              <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="row g-0 bg-light rounded overflow-hidden">
+                                      <div class="col-12 col-sm-5 d-flex align-items-stretch">
+                                          <img class="img-fluid w-100" src="./images/d2c.jpg" style="object-fit: cover;">
+                                      </div>
+                                      <div class="col-12 col-sm-7 d-flex flex-column">
+                                          <div class="mt-auto p-4">
+                                              <h3>Dr. Jeshon</h3>
+                                              <h6 class="fw-normal fst-italic text-primary mb-4">Medicine Specialist</h6>
+                                              <p class="m-0">Sanctus clita duo justo et tempor consetetur takimata eirmod.</p>
+                                          </div>
+                                          <div class="d-flex mt-auto border-top p-4">
+                                              <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                              <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                              <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+
+
+                          </div>
+                      </div>
+                      </div>
+                  
+                  <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+              </div>
+      </div>
+    <!-- Team End -->
+
+    </section>
+  </main>
+
+    <footer id="footer" class="border border-top-2">
+
+        <div class="footer-top">
+        <div class="container">
+            <div class="row">
+
+            <div class="col-lg-3 col-md-6 footer-info">
+                <h3 style="color: #000066;">BestCare <br/><small class="text-secondary">Health Solution</small></h3>
+                <p>
+                Begum Rokeya Saroni <br>
+                Dhaka, Bangladesh<br><br>
+                <strong>Phone:</strong> +880 1575634380<br>
+                <strong>Email:</strong> info@example.com<br>
+                </p>
+                <div class="social-links mt-3">
+                <a href="https://x.com/" class="twitter"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/accounts/login/?hl=en" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/login" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+                <h4 style="color: #000066;">Useful Links</h4>
+                <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+                <h4 style="color: #000066;">Our Services</h4>
+                <ul>
+
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Diagnostics</a></li> 
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Bloodbank</a></li>              
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Pathology</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Radiology & Imageing</a></li>              
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Pharmacology</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Emergency Medicine</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+                <h4 style="color: #000066;">Our Departments</h4>
+                <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Neurology</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Orthopedics</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Pediatrics</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Oncology</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Dermatology</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Gastroenterology</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+                <h4 style="color: #000066;">Contact & Fidback</h4>
+                <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Mail Us</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Contact Us</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Conplain</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Find Us</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Fidback</a></li>
+                </ul>
+            </div>
+
+            </div>
+        </div>
+        </div>
+
+        <div class="container">
+        <div class="copyright">
+            &copy; Copyright <strong><span>BestCare Health Solution</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+            Designed by <a href="https://bootstrapmade.com/"><i>Md. Masud Rana</i></a>
+        </div>
+        </div>
+    </footer>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // JavaScript for back-to-top button visibility
+    let backtotop = document.querySelector('.back-to-top');
+    if (backtotop) {
+      const toggleBacktotop = () => {
+        if (window.scrollY > 100) {
+          backtotop.classList.add('active');
+        } else {
+          backtotop.classList.remove('active');
+        }
+      }
+      window.addEventListener('load', toggleBacktotop);
+      document.addEventListener('scroll', toggleBacktotop);
+    }
+  </script>
+</body>
+</html>

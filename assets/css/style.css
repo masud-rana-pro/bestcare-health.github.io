@@ -1,0 +1,270 @@
+    /* Adjustments for Topbar */
+    #topbar {
+      background: #209dc0; /* A shade of blue matching the image */
+      color: #fff;
+      padding: 5px 0;
+      font-size: 14px;
+    }
+
+    #topbar .contact-info i {
+      color: #fff;
+      font-style: normal; /* To remove default italic on <i> */
+    }
+
+    #topbar .contact-info a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 5px;
+    }
+
+    #topbar .social-links a {
+      color: #fff;
+      font-size: 1.1rem;
+      margin-left: 15px;
+      transition: 0.3s;
+    }
+
+    #topbar .social-links a:hover {
+      color: rgba(255, 255, 255, 0.7);
+    }
+    
+    /* Navbar Brand Specifics for BestCare Health Solution */
+    .navbar-brand img {
+      margin-right: 8px; /* Gap between logo and text */
+    }
+
+    .navbar-brand .brand-text {
+      line-height: 1.2; /* Adjust line height for the stacked text */
+    }
+
+    .navbar-brand .brand-text .bestcare-name {
+      font-size: 1.4rem; /* Larger font for BestCare */
+      font-weight: 700; /* Bold */
+      color: #333; /* Darker color for BestCare */
+    }
+
+    .navbar-brand .brand-text .health-solution-tag {
+      font-size: 0.9rem; /* Smaller font for Health Solution */
+      color: #666; /* Slightly lighter color */
+      margin-top: -5px; /* Pull it closer to BestCare */
+      display: block; /* Ensure it's on a new line */
+    }
+
+    /* Navbar Links Styling */
+    .navbar-nav .nav-link {
+      color: #666; /* Default link color */
+      font-weight: 600;
+      padding: 5px 15px;
+      position: relative;
+    }
+
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link.active {
+      color: #209dc0; /* Blue on hover/active */
+    }
+
+    /* Underline effect for active/hover */
+    .navbar-nav .nav-link.active::before,
+    .navbar-nav .nav-link:hover::before {
+      content: "";
+      position: absolute;
+      width: calc(100% - 30px); /* Adjust width as needed */
+      height: 3px;
+      background-color: #209dc0;
+      bottom: 0px; /* Position at the bottom of the link */
+      left: 15px; /* Align with padding */
+    }
+
+    /* Make Appointment Button */
+    .btn-appointment {
+      background-color: #209dc0; /* Blue background */
+      color: #fff; /* White text */
+      border-radius: 50px; /* Rounded corners */
+      padding: 4px 20px;
+      margin-left: 20px;
+      border: 2px solid #209dc0; /* Border color */
+      transition: 0.3s;
+    }
+
+    .btn-appointment:hover {
+      background-color: #000405; /* Darker blue on hover */
+      border-color: #177f9e;
+      color: #fff;
+    }
+    
+    /* General Navbar */
+    .navbar {
+        padding: 0; /* Remove default navbar padding to control it more precisely */
+    }
+
+    /* General Footer Styling */
+    #footer {
+      background-color: rgba(2, 161, 182, 0.05); /* bg-info with 10% opacity */
+      padding: 60px 0 30px 0; /* Adjust padding as per image */
+      font-size: 14px;
+      color: #333; /* Default text color for footer */
+      position: relative;
+      border-top: 1px;
+    }
+
+    #footer .footer-top {
+      padding-bottom: 30px;
+    }
+
+    #footer .footer-info {
+      margin-bottom: 30px;
+    }
+
+    #footer .footer-info h3 {
+      font-size: 24px;
+      margin: 0 0 20px 0;
+      padding: 2px 0 2px 0;
+      line-height: 1;
+      font-weight: 700;
+      color: #333; /* Darker color for main title */
+    }
+
+    #footer .footer-info p {
+      font-size: 14px;
+      line-height: 24px;
+      margin-bottom: 0;
+      color: #555;
+    }
+
+    #footer .footer-info .social-links {
+      margin-top: 20px;
+      display: flex; /* Use flexbox for social icons */
+    }
+
+    #footer .footer-info .social-links a {
+      font-size: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #fff; /* White background for icons */
+      color: #209dc0; /* Blue icon color */
+      line-height: 0;
+      border-radius: 50px;
+      margin-right: 10px; /* Space between icons */
+      width: 36px;
+      height: 36px;
+      transition: 0.3s;
+      border: 1px solid #ddd; /* Light border */
+    }
+
+    #footer .footer-info .social-links a:hover {
+      background: #209dc0; /* Blue background on hover */
+      color: #fff; /* White icon on hover */
+      border-color: #209dc0;
+    }
+
+    #footer h4 {
+      font-size: 16px;
+      font-weight: bold;
+      color: #333; /* Darker color for section titles */
+      position: relative;
+      padding-bottom: 12px;
+    }
+
+    #footer h4::before { /* Underline for section titles */
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 40px;
+      height: 2px;
+      background: #209dc0; /* Blue underline */
+    }
+
+    #footer .footer-links ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #footer .footer-links ul li {
+      padding: 10px 0;
+      display: flex; /* For icon and text alignment */
+      align-items: center;
+    }
+
+    #footer .footer-links ul li:first-child {
+      padding-top: 0;
+    }
+
+    #footer .footer-links ul a {
+      color: #555; /* Link color */
+      transition: 0.3s;
+      display: inline-block; /* Allow padding to apply */
+      line-height: 1;
+      margin-left: 5px; /* Space between icon and text */
+      text-decoration: none;
+    }
+
+    #footer .footer-links ul a:hover {
+      color: #209dc0; /* Blue on hover */
+    }
+
+    #footer .footer-links ul i {
+      padding-right: 2px;
+      color: #209dc0; /* Blue icon for list items */
+      font-size: 12px; /* Smaller icon size */
+    }
+
+    /* Copyright Section */
+    #footer .copyright {
+      text-align: center;
+      padding-top: 30px;
+      border-top: 1px solid rgba(0, 0, 0, 0.1); /* Light gray border top */
+      color: #555;
+    }
+
+    #footer .copyright span {
+      font-weight: 600;
+    }
+
+    #footer .credits {
+      padding-top: 5px;
+      text-align: center;
+      font-size: 13px;
+      color: #777;
+    }
+
+    #footer .credits a {
+        color: #209dc0; /* Blue link for credits */
+        text-decoration: none;
+    }
+
+    /* Back to top button */
+    .back-to-top {
+      position: fixed;
+      visibility: hidden;
+      opacity: 0;
+      right: 15px;
+      bottom: 15px;
+      z-index: 996;
+      background: #209dc0;
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+      transition: all 0.4s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    .back-to-top i {
+      font-size: 20px;
+      color: #fff;
+      line-height: 0;
+    }
+
+    .back-to-top:hover {
+      background: #177f9e;
+      color: #fff;
+    }
+
+    .back-to-top.active {
+      visibility: visible;
+      opacity: 1;
+    }
